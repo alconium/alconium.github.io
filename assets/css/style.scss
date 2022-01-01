@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid $body-text-color;
+  a {
+    color: $body-link-color;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+    &:hover {
+      background: #0008;
+    }
+  }
+}
