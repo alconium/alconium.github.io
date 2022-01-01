@@ -2,8 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
-$header-bg-color: #7E51FF;
-$header-bg-color-secondary: #402A7E;
+$header-bg-color: #402A7E;
+$header-bg-color-secondary: #7E51FF;
+
+.page-header {
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+}
 
 nav {
   display: flex;
