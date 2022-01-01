@@ -2,6 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+$header-bg-color: #7E51FF;
+$header-bg-color-secondary: #402A7E;
 
 nav {
   display: flex;
@@ -15,7 +17,8 @@ nav {
     margin: 8px;
     border-radius: 2px;
     &:hover {
-      background: #0008;
+      background: #0003;
+      text-decoration: none;
     }
   }
 }
